@@ -1,36 +1,42 @@
-body
+body {
   font-size: 14px;
 }
 
-nav {
-  background color: yellow;
+  nav {
+  background-color: yellow;
   height: 100px;
-  margin-top: -10px;
-  position: fixed;
+  margin-top: 40px;
+  position: top;
+  text-align: center;
   width: 100%;
-
-
+}
+/* This section is at the top */
 section {
   margin: 0 auto;
-  width: 60%;
+  width: 100%;
 }
-
+/* This section controls boxes in the center. */
 h1 {
-  font-family sans-serif;
-  font-size: 2em;
+  font-family: sans-serif;
+  font-size: 1em;
 }
-
-.example, h3 {
+/* This has to do with the text in the green boxes. */
+.example h3 {
   padding-top: 30px;
-  text-align center
+  text-align:right;
 }
-
 h3 {
   font-size: 1.3em;
 }
-
-.element {
+/* These two deal with the alignment of text. */
+.element{
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+/* This controls the green boxes. */
+.lastThree {
+background-color: yellow;
+}
+/* This deals with the last three boxes. */
